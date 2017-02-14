@@ -77,7 +77,7 @@ namespace Senparc.Weixin.QY.AdvancedAPIs.Asynchronous
     /// </summary>
     public class AsynchronousReplaceUserResult : BaseAsynchronousResult
     {
-        public List<AsynchronousReplaceUserResult> result { get; set; }
+        public List<AsynchronousReplaceUserItem> result { get; set; }
     }
 
     public class AsynchronousReplaceUserItem : QyJsonResult
